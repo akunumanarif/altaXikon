@@ -1,0 +1,16 @@
+# Soal
+
+# SELECT * FROM users
+
+1. Redis
+
+- MGET "users:*"
+
+2. Neo4j
+
+- MATCH (n:users) RETURN n
+
+3. Cassandra
+
+- SELECT * FROM expense.users
+- Note: expense adalah nama keyspace, mirip seperti database_name di MySQL
